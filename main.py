@@ -33,7 +33,7 @@ def whenSquareClicked(square):
             changeCounter()
             highlightWinnerSquares(game.winner_squares)
         game.restart()
-        root.after('5000', lambda: restartGrid())
+        root.after('3000', lambda: restartGrid())
     updateLabelColor()
 
 

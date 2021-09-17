@@ -22,8 +22,7 @@ class Game():
         self.draw: bool = False
 
     def restart(self):
-        self.first_color = self.second_color
-        self.__init__(self.first_color)
+        self.__init__(self.second_color)
 
     def move(self, square):
         self.__update_square(square)
