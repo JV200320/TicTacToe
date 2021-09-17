@@ -1,6 +1,5 @@
 from tkinter import *
 from game import Game
-from time import sleep
 
 
 root = Tk()
